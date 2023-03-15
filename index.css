@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.upper-container{
+    width: 50px;
+    height: 10px;
+    margin: 50px auto;
+    position: relative;
+}
+
+.upper-container1{
+    width: 35%;
+    height: 100%;
+    padding-top: 20px;
+}
+
+#tasks{
+    font-weight: bold;
+    font-size: 2.1rem;
+}
+
+#lists{
+    font-size: 2.1rem;
+    margin-left: 5px;
+    opacity: 0.5;
+}
+
+.upper-container2{
+    width: 30%;
+    height: 100%;
+    padding-top: 20px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#addlist{
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    font-size: 30px;
+    opacity: 0.5;
+    padding-top: 25px;
+}
+
+#circle{
+    position: absolute;
+    width: 10px;
+    height: 100%;
+}
+
+.div1{
+    position: absolute;
+    top: 15px;
+    right: 0;
+    font-size: 25px;
+    width: 85%;
+    text-align: left;
+    height: 15%;
+    color: deepskyblue;
+    border-bottom: 1px solid black;
+}
+
+.div2{
+    width: 90%;
+    height: 10%;
+    font-size: 22px;
+    color: gainsboro;
+    text-align: right;
+    position: absolute;
+    top: 35%;
+    font-weight: blod;
+    text-decoration: line-through;
+}
+
+.div3{
+    width: 90%;
+    height: 10%;
+    position: absolute;
+    top: 52%;
+    text-align: left;
+    font-size: 25px;
+}
+
+#check{
+    width: 20%;
+    height: 20%;
+    margin-left: 10px;
+}
+
+.card1{
+
+    margin-top: 3px;
+    border: 1.5px solid green;
+    height: 45vh;
+    width: 15%;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.card2{
+
+    margin-top: 3px;
+    border: 1.5px solid green;
+    height: 45vh;
+    width: 15%;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.card3{
+
+    margin-top: 3px;
+    border: 1.5px solid green;
+    height: 45vh;
+    width: 15%;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.lower{
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+@media(max-width:600){
+    .upper-container{
+        width: 80px;
+    }
+}
