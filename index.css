@@ -3,33 +3,30 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    max-width: 592px;
-    max-height: 984x;
 }
 
 .upper-container{
-    width: 100px;
+    width: 50%;
     height: 60%;
     margin: 5px auto;
     position: relative;
-    box-sizing: 90px;    
+    box-sizing: 90px; 
+    margin-top: 120px;   
 }
 
 .upper-container1{
     width: 35%;
     height: 100%;
-    top: -10px;   
 }
 
 #tasks{
     font-weight: bold;
-    font-size: 3rem;
-    margin-left: -220px;
+    font-size: 2rem;
+    margin-left: -80px;
 }
 
 #lists{
-    font-size: 3rem;
-    margin-left: 5px;
+    font-size: 2rem;
     opacity: 0.9;
     margin-left: -10px;
     color: rgb(8, 152, 255);
@@ -40,8 +37,8 @@
     width: auto;
     height: 100%;
     position: absolute;
-    top: 40px;
-    right: 0px;
+    top: -25px;
+    right: 100px;
 }
 
 #circle{
@@ -53,9 +50,8 @@
 .div1{
     position: relative;
     top: 15px;
-    right: 0;
-    right: 33px;
-    font-size: 35px;
+    right: 2px;
+    font-size: 16px;
     width: 85%;
     text-align: left;
     height: 15%;
@@ -67,12 +63,11 @@
 .div2{
     width: 90%;
     height: 10%;
-    font-size: 30px;
+    font-size: 18px;
     color: gray;
-    text-align: left;
     position: absolute;
-    top: 28%;
-    right: 20px;
+    top: 35%;
+    right: 5px;
     font-weight: blod;
     text-decoration: line-through;
 }
@@ -84,7 +79,7 @@
     top: 52%;
     left: -8px;
     text-align: left;
-    font-size: 30px;
+    font-size: 16px;
     font-weight: bold;
 }
 
@@ -96,10 +91,10 @@
 
 .card1{
 
-    margin-top: 15px;
+    margin-top: 50px;
     border: 1.5px solid green;
-    height: 35vh;
-    width: 16%;
+    height: 40vh;
+    width: 15%;
     position: relative;
     border-radius: 8px;
     box-shadow: 5px 5px 10px gray;
@@ -107,9 +102,9 @@
 
 .card2{
 
-    margin-top: 3px;
+    margin-top: 50px;
     border: 1.5px solid green;
-    height: 45vh;
+    height: 40vh;
     width: 15%;
     position: relative;
     border-radius: 8px;
@@ -118,9 +113,9 @@
 
 .card3{
 
-    margin-top: 3px;
+    margin-top: 50px;
     border: 1.5px solid green;
-    height: 45vh;
+    height: 40vh;
     width: 15%;
     position: relative;
     border-radius: 8px;
@@ -134,21 +129,24 @@
     flex-wrap: wrap;
 }
 
-@media screen and (min-width: 592px) and (max-width:984px){
+@media screen (min-width: 300px) and (max-width: 600px){
+    .left, .main, .right {
+      width: 100%; 
+    }
+
     .upper-container{
-        width: 80px;
+        width: 80%;
     }
 
     .upper-container1{
         width: 80%;
     }
     #circle{
-        left: 20px;
-
+        left: 30%;
     }
 
     .div2{
-        display:flex;
+        display:none;
     }
 
     .div3{
@@ -159,7 +157,6 @@
         border: none;
         color: deepskyblue;
         text-decoration: underline;
-        text-align: center;
     }
 
     .card1{
