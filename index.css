@@ -11,11 +11,11 @@
     margin: 5px auto;
     position: relative;
     box-sizing: 90px; 
-    margin-top: 120px;   
+    margin-top: 10px;   
 }
 
 .upper-container1{
-    width: 35%;
+    width: 50%;
     height: 100%;
 }
 
@@ -37,8 +37,8 @@
     width: auto;
     height: 100%;
     position: absolute;
-    top: -25px;
-    right: 100px;
+    top: 25px;
+    right: 66px;
 }
 
 #circle{
@@ -91,10 +91,10 @@
 
 .card1{
 
-    margin-top: 50px;
+    margin-top: 90px;
     border: 1.5px solid green;
-    height: 40vh;
-    width: 15%;
+    height: 35vh;
+    width: 95%;
     position: relative;
     border-radius: 8px;
     box-shadow: 5px 5px 10px gray;
@@ -102,21 +102,22 @@
 
 .card2{
 
-    margin-top: 50px;
+    margin-top: 90px;
     border: 1.5px solid green;
-    height: 40vh;
-    width: 15%;
+    height: 35vh;
+    width: 95%;
     position: relative;
     border-radius: 8px;
     box-shadow: 5px 5px 10px gray;
+    padding-top: 10px;
 }
 
 .card3{
 
-    margin-top: 50px;
+    margin-top: 90px;
     border: 1.5px solid green;
-    height: 40vh;
-    width: 15%;
+    height: 35vh;
+    width: 95%;
     position: relative;
     border-radius: 8px;
     box-shadow: 5px 5px 10px gray;
@@ -140,9 +141,16 @@
 
     .upper-container1{
         width: 80%;
+        margin-top: 20px;
     }
+
+    #list{
+        margin-top: 20px;
+    }
+    
     #circle{
         left: 30%;
+        margin-top: 20px;
     }
 
     .div2{
