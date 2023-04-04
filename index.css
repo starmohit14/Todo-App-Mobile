@@ -22,7 +22,7 @@
 #tasks{
     font-weight: bold;
     font-size: 2rem;
-    margin-left: -80px;
+    margin-left: -50px;
 }
 
 #lists{
@@ -38,12 +38,12 @@
     height: 100%;
     position: absolute;
     top: 25px;
-    right: 66px;
+    left: 115px;
 }
 
 #circle{
     position: absolute;
-    width: 10px;
+    width: 20px;
     height: 100%;
 }
 
@@ -94,7 +94,7 @@
     margin-top: 90px;
     border: 1.5px solid green;
     height: 35vh;
-    width: 95%;
+    width: 20%;
     position: relative;
     border-radius: 8px;
     box-shadow: 5px 5px 10px gray;
@@ -105,7 +105,7 @@
     margin-top: 90px;
     border: 1.5px solid green;
     height: 35vh;
-    width: 95%;
+    width: 20%;
     position: relative;
     border-radius: 8px;
     box-shadow: 5px 5px 10px gray;
@@ -117,7 +117,7 @@
     margin-top: 90px;
     border: 1.5px solid green;
     height: 35vh;
-    width: 95%;
+    width: 20%;
     position: relative;
     border-radius: 8px;
     box-shadow: 5px 5px 10px gray;
@@ -130,7 +130,7 @@
     flex-wrap: wrap;
 }
 
-@media screen (min-width: 300px) and (max-width: 600px){
+@media only screen and (max-width: 600px){    
     .left, .main, .right {
       width: 100%; 
     }
@@ -154,17 +154,19 @@
     }
 
     .div2{
-        display:none;
+        font-size: 30px;        
     }
 
     .div3{
         right: 35px;
+        font-size: 30px;
     }
 
     .div1{
         border: none;
         color: deepskyblue;
         text-decoration: underline;
+        font-size: 35px;
     }
 
     .card1{
