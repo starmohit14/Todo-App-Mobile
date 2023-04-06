@@ -1,0 +1,293 @@
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.upper-container{
+    width: 50%;
+    height: 60%;
+    margin: 5px auto;
+    position: relative;
+    box-sizing: 90px; 
+    margin-top: 10px;   
+}
+
+.upper-container1{
+    width: 50%;
+    height: 100%;
+}
+
+#tasks{
+    font-weight: bold;
+    font-size: 2rem;
+    margin-left: -50px;
+}
+
+#lists{
+    font-size: 2rem;
+    opacity: 0.9;
+    margin-left: -10px;
+    color: rgb(8, 152, 255);
+    font-weight: bold;
+}
+
+.upper-container2{
+    width: auto;
+    height: 100%;
+    position: absolute;
+    top: 25px;
+    right: -25px;
+}
+
+#circle{
+    position: absolute;
+    width: 20px;
+    height: 100%;
+}
+
+.div1{
+    position: relative;
+    top: 15px;
+    right: 2px;
+    font-size: 16px;
+    width: 85%;
+    text-align: left;
+    height: 15%;
+    color:#00bfff;
+    border-bottom: 1px solid black;
+    font-weight: bold;
+}
+
+.div2{
+    width: 90%;
+    height: 10%;
+    font-size: 18px;
+    color: gray;
+    position: absolute;
+    top: 35%;
+    right: 5px;
+    font-weight: blod;
+    text-decoration: line-through;
+}
+
+.div3{
+    width: 90%;
+    height: 10%;
+    position: absolute;
+    top: 52%;
+    left: -8px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#check{
+    size: 20px;
+    height: 12%;
+    margin-left: 10px;
+}
+
+.card1{
+
+    margin-top: 90px;
+    border: 1.5px solid green;
+    height: 35vh;
+    width: 20%;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.card2{
+
+    margin-top: 90px;
+    border: 1.5px solid green;
+    height: 35vh;
+    width: 20%;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px gray;
+    padding-top: 10px;
+}
+
+.card3{
+
+    margin-top: 90px;
+    border: 1.5px solid green;
+    height: 35vh;
+    width: 20%;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.lower{
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.notshow{
+    filter: grayscale(100%);
+    -webkit-filter: blur(100%);
+    -webkit-tap-highlight-color: gray;
+    background-color: darkgray;
+    cursor: pointer;
+    
+}
+
+.pop-up{
+    position: absolute;
+    left: 35%;
+    top: 25%;
+    height: 30vh;
+    width: 22%;
+    border-radius: 10px;
+    color: black;
+    font-size: 16px;
+    background-color: white;
+    box-shadow: 3px 3px 10px gray;
+    padding: 25px;
+    text-decoration:underline;
+}
+
+.add-new{
+    opacity: 0.7;
+    font-size: 15px;
+}
+
+#circle{
+    margin-top: -2px;
+    margin-left: -12px;
+    
+}
+
+#close{
+    margin-top: -90px;
+    margin-left: 280px;
+}
+
+.pop-upbar{
+    margin-top: 45px;
+    border: 1px solid gray;
+    background-color: ghostwhite;
+    width: 290px;
+    height: 20px;
+}
+
+.pop-up-button{
+    width: 35%;
+    height: 35px;
+    margin-top: 40px;
+    color: white;
+    background-color: #00bfff;
+    border-radius: 5px;
+    border: 5px;
+    position: absolute;
+    Margin-left: 175px;
+    font-size: 15px;    
+}
+
+@media only screen and (max-width: 600px){
+    .left, .main, .right {
+      width: 100%; 
+    }
+
+    .upper-container{
+        width: 80%;
+    }
+
+    .upper-container1{
+        width: 80%;
+        margin-top: 20px;
+    }
+
+    .upper-container2{
+        width: 85%;
+        margin-top: 20px;
+    }
+
+    #list{
+        margin-top: 20px;
+    }
+    
+    #circle{
+        left: 20%;
+        margin-top: 23px;
+    }
+
+    .div2{
+        font-size: 25px;
+        display: flex;  
+        right: 90px;    
+    }
+
+    .div3{
+        right: 10px;
+        font-size: 25px;
+    }
+
+    .div1{
+        border: none;
+        color: deepskyblue;
+        text-decoration: underline;
+        font-size: 30px;
+    }
+
+    .card1{
+        width: 90%;
+        height: 90vw;
+        margin-top: 100px;
+        margin-left: 20px;
+    }
+
+    .card2{
+        width: 90%;
+        height: 90vw;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+
+    .card3{
+        width: 90%;
+        height: 90vw;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+
+    .pop-up{
+        width: 90%;
+        height: 70vw;
+        margin-left: -30%;
+    }
+
+    #add-new{
+        font-size: 25px;
+    }
+    
+    #circle{
+       
+        
+    }
+    
+    #close{
+        margin-left: 90%;
+        margin-top: -35%;
+    }
+    
+    .pop-upbar{
+        width: 95%;  
+        height: 25px;     
+    }
+    
+    .pop-up-button{
+        margin-left: -40%;
+        margin-top: 35%;
+        width: 40%;
+        height: 50px;
+        font-size: 20px;
+    }
+}
