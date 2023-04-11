@@ -38,7 +38,7 @@
     height: 100%;
     position: absolute;
     top: 25px;
-    left: 115px;
+    left: 30%;
 }
 
 #circle{
@@ -144,6 +144,11 @@
         margin-top: 20px;
     }
 
+    .upper-container2{
+        width: 85%;
+        margin-top: 20px;
+    }
+
     #list{
         margin-top: 20px;
     }
@@ -154,12 +159,12 @@
     }
 
     .div2{
-        font-size: 30px;        
+        font-size: 25px;        
     }
 
     .div3{
         right: 35px;
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .div1{
@@ -171,19 +176,19 @@
 
     .card1{
         width: 90%;
-        height: 80vw;
+        height: 90vw;
         margin-top: 100px;
     }
 
     .card2{
         width: 90%;
-        height: 80vw;
+        height: 90vw;
         margin-top: 30px;
     }
 
     .card3{
         width: 90%;
-        height: 80vw;
+        height: 90vw;
         margin-top: 30px;
     }
 }
