@@ -1,0 +1,184 @@
+*{
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.upper-container{
+    width: 50%;
+    height: 60%;
+    margin: 5px auto;
+    position: relative;
+    box-sizing: 90px; 
+    margin-top: 10px;   
+}
+
+.upper-container1{
+    width: 50%;
+    height: 100%;
+}
+
+#tasks{
+    font-weight: bold;
+    font-size: 2rem;
+    margin-left: -50px;
+}
+
+#lists{
+    font-size: 2rem;
+    opacity: 0.9;
+    margin-left: -10px;
+    color: rgb(8, 152, 255);
+    font-weight: bold;
+}
+
+.upper-container2{
+    width: auto;
+    height: 100%;
+    position: absolute;
+    top: 25px;
+    left: 30%;
+}
+
+#circle{
+    position: absolute;
+    width: 20px;
+    height: 100%;
+    top: 5px;
+    left: 90px;
+}
+
+#circle-left{
+    margin-top: 17px;
+    margin-left: -25px;
+}
+
+#back{
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    top: 5px;
+    left: 10px;  
+    font-size: 16px;
+    opacity: 0.5;
+    padding-top: 15px;
+}
+
+.div1{
+    position: relative;
+    top: 15px;
+    right: 2px;
+    font-size: 16px;
+    width: 85%;
+    text-align: left;
+    height: 15%;
+    color:#00bfff;
+    border-bottom: 1px solid black;
+    font-weight: bold;
+}
+
+.div2{
+    width: 90%;
+    height: 10%;
+    font-size: 18px;
+    color: gray;
+    position: absolute;
+    top: 35%;
+    right: 5px;
+    font-weight: blod;
+    text-decoration: line-through;
+}
+
+.div3{
+    width: 90%;
+    height: 10%;
+    position: absolute;
+    top: 52%;
+    left: -8px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#check{
+    size: 20px;
+    height: 12%;
+    margin-left: 10px;
+}
+
+.card5{
+
+    margin-top: 90px;
+    border: 1.5px solid green;
+    height: 35vh;
+    width: 40%;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.lower{
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 600px){    
+    .left, .main, .right {
+      width: 100%; 
+    }
+
+    .upper-container{
+        width: 80%;
+    }
+
+    .upper-container1{
+        width: 80%;
+        margin-top: 20px;
+    }
+
+    .upper-container2{
+        width: 85%;
+        margin-top: 20px;
+    }
+
+    #list{
+        margin-top: 20px;
+    }
+    
+    #circle{
+        left: 10px;
+        margin-top: 15px;
+    }
+
+    #circle-left{
+        margin-left: -90px;
+    }
+
+    #back{
+        margin-left: -60px;
+    }
+
+    .div2{
+        font-size: 25px;        
+    }
+
+    .div3{
+        right: 35px;
+        font-size: 25px;
+    }
+
+    .div1{
+        border: none;
+        color: deepskyblue;
+        font-size: 25px;
+    }
+
+    .card5{
+        width: 90%;
+        height: 90vw;
+        margin-top: 100px;
+    }
+}
